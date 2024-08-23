@@ -1,0 +1,15 @@
+{
+  "name": "api-maiden",
+  "version": "0.1.0",
+  "main": "teams.js",
+  "dependencies": {
+    "axios": "^1.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

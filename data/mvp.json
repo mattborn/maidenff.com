@@ -1,0 +1,228 @@
+{
+  "teams": {
+    "Arizona Cardinals": {
+      "city": "Arizona",
+      "name": "Cardinals",
+      "colorHex1": "#972B3F",
+      "colorHex2": "#FFC080",
+      "division": "NFC West"
+    },
+    "Atlanta Falcons": {
+      "city": "Atlanta",
+      "name": "Falcons",
+      "colorHex1": "#A71930",
+      "colorHex2": "#000000",
+      "division": "NFC South"
+    },
+    "Baltimore Ravens": {
+      "city": "Baltimore",
+      "name": "Ravens",
+      "colorHex1": "#241F20",
+      "colorHex2": "#9B7A57",
+      "division": "AFC North"
+    },
+    "Buffalo Bills": {
+      "city": "Buffalo",
+      "name": "Bills",
+      "colorHex1": "#00338F",
+      "colorHex2": "#C60C30",
+      "division": "AFC East"
+    },
+    "Carolina Panthers": {
+      "city": "Carolina",
+      "name": "Panthers",
+      "colorHex1": "#0085CA",
+      "colorHex2": "#B1B1B1",
+      "division": "NFC South"
+    },
+    "Chicago Bears": {
+      "city": "Chicago",
+      "name": "Bears",
+      "colorHex1": "#0B162A",
+      "colorHex2": "#FFC080",
+      "division": "NFC North"
+    },
+    "Cincinnati Bengals": {
+      "city": "Cincinnati",
+      "name": "Bengals",
+      "colorHex1": "#000000",
+      "colorHex2": "#FFC080",
+      "division": "AFC North"
+    },
+    "Cleveland Browns": {
+      "city": "Cleveland",
+      "name": "Browns",
+      "colorHex1": "#3C3B6E",
+      "colorHex2": "#FF3C00",
+      "division": "AFC North"
+    },
+    "Dallas Cowboys": {
+      "city": "Dallas",
+      "name": "Cowboys",
+      "colorHex1": "#002244",
+      "colorHex2": "#B1B1B1",
+      "division": "NFC East"
+    },
+    "Denver Broncos": {
+      "city": "Denver",
+      "name": "Broncos",
+      "colorHex1": "#002244",
+      "colorHex2": "#FFC080",
+      "division": "AFC West"
+    },
+    "Detroit Lions": {
+      "city": "Detroit",
+      "name": "Lions",
+      "colorHex1": "#0076B6",
+      "colorHex2": "#B1B1B1",
+      "division": "NFC North"
+    },
+    "Green Bay Packers": {
+      "city": "Green Bay",
+      "name": "Packers",
+      "colorHex1": "#203731",
+      "colorHex2": "#FFC080",
+      "division": "NFC North"
+    },
+    "Houston Texans": {
+      "city": "Houston",
+      "name": "Texans",
+      "colorHex1": "#032B44",
+      "colorHex2": "#B1B1B1",
+      "division": "AFC South"
+    },
+    "Indianapolis Colts": {
+      "city": "Indianapolis",
+      "name": "Colts",
+      "colorHex1": "#002244",
+      "colorHex2": "#FFC080",
+      "division": "AFC South"
+    },
+    "Jacksonville Jaguars": {
+      "city": "Jacksonville",
+      "name": "Jaguars",
+      "colorHex1": "#006CA9",
+      "colorHex2": "#B1B1B1",
+      "division": "AFC South"
+    },
+    "Kansas City Chiefs": {
+      "city": "Kansas City",
+      "name": "Chiefs",
+      "colorHex1": "#E31837",
+      "colorHex2": "#FFC080",
+      "division": "AFC West"
+    },
+    "Las Vegas Raiders": {
+      "city": "Las Vegas",
+      "name": "Raiders",
+      "colorHex1": "#000000",
+      "colorHex2": "#A5A5A5",
+      "division": "AFC West"
+    },
+    "Los Angeles Chargers": {
+      "city": "Los Angeles",
+      "name": "Chargers",
+      "colorHex1": "#002244",
+      "colorHex2": "#FFC080",
+      "division": "AFC West"
+    },
+    "Los Angeles Rams": {
+      "city": "Los Angeles",
+      "name": "Rams",
+      "colorHex1": "#0033B2",
+      "colorHex2": "#FFC080",
+      "division": "NFC West"
+    },
+    "Miami Dolphins": {
+      "city": "Miami",
+      "name": "Dolphins",
+      "colorHex1": "#008E97",
+      "colorHex2": "#FFC080",
+      "division": "AFC East"
+    },
+    "Minnesota Vikings": {
+      "city": "Minnesota",
+      "name": "Vikings",
+      "colorHex1": "#4F2683",
+      "colorHex2": "#FFC080",
+      "division": "NFC North"
+    },
+    "New England Patriots": {
+      "city": "New England",
+      "name": "Patriots",
+      "colorHex1": "#002244",
+      "colorHex2": "#C60C30",
+      "division": "AFC East"
+    },
+    "New Orleans Saints": {
+      "city": "New Orleans",
+      "name": "Saints",
+      "colorHex1": "#D3BC8D",
+      "colorHex2": "#000000",
+      "division": "NFC South"
+    },
+    "New York Giants": {
+      "city": "New York",
+      "name": "Giants",
+      "colorHex1": "#0B2265",
+      "colorHex2": "#A5A5A5",
+      "division": "NFC East"
+    },
+    "New York Jets": {
+      "city": "New York",
+      "name": "Jets",
+      "colorHex1": "#125740",
+      "colorHex2": "#A5A5A5",
+      "division": "AFC East"
+    },
+    "Philadelphia Eagles": {
+      "city": "Philadelphia",
+      "name": "Eagles",
+      "colorHex1": "#004C54",
+      "colorHex2": "#A5A5A5",
+      "division": "NFC East"
+    },
+    "Pittsburgh Steelers": {
+      "city": "Pittsburgh",
+      "name": "Steelers",
+      "colorHex1": "#000000",
+      "colorHex2": "#FFC080",
+      "division": "AFC North"
+    },
+    "San Francisco 49ers": {
+      "city": "San Francisco",
+      "name": "49ers",
+      "colorHex1": "#AA0000",
+      "colorHex2": "#FFC080",
+      "division": "NFC West"
+    },
+    "Seattle Seahawks": {
+      "city": "Seattle",
+      "name": "Seahawks",
+      "colorHex1": "#002244",
+      "colorHex2": "#69BE28",
+      "division": "NFC West"
+    },
+    "Tampa Bay Buccaneers": {
+      "city": "Tampa Bay",
+      "name": "Buccaneers",
+      "colorHex1": "#812828",
+      "colorHex2": "#FFC080",
+      "division": "NFC South"
+    },
+    "Tennessee Titans": {
+      "city": "Tennessee",
+      "name": "Titans",
+      "colorHex1": "#002244",
+      "colorHex2": "#C60C30",
+      "division": "AFC South"
+    },
+    "Washington Commanders": {
+      "city": "Washington",
+      "name": "Commanders",
+      "colorHex1": "#FFC080",
+      "colorHex2": "#B1B1B1",
+      "division": "NFC East"
+    }
+  }
+}
