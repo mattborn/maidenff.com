@@ -1,10 +1,14 @@
-// this file generates /data/teams.json
+// this file generates /data/players.json
 
-console.time('Generated objects for 32 teams in')
+const totalPlayers = 160 // next rung is 192
 
 const axios = require('axios')
 const fs = require('fs')
 const path = require('path')
+
+const schema = {
+  players: ['Tyreek Hill', 'CeeDee Lamb', 'Christian McCaffrey'],
+}
 
 const toJSON = str => {
   const curly = str.indexOf('{')
@@ -23,17 +27,7 @@ const toJSON = str => {
   if (!count) return JSON.parse(str.slice(str.indexOf(first), str.lastIndexOf(last) + 1))
 }
 
-const schema = {
-  teams: {
-    'Chicago Bears': {
-      city: 'Chicago',
-      name: 'Bears',
-      colorHex1: '#abc123',
-      colorHex2: '#def456',
-      division: 'NFC North',
-    },
-  },
-}
+console.time(`Fetched batch of ${totalPlayers} players`)
 
 axios
   .post(
@@ -43,9 +37,9 @@ axios
       messages: [
         {
           role: 'user',
-          content: `Generate the list of all 32 NFL teams with their city, name, colors, and division and return only a JSON object that copies this schema: ${JSON.stringify(
+          content: `Generate an array of the top ${totalPlayers} NFL players in 2024 fantasy football drafts based on average draft posiiton (ADP) and return only a JSON object that copies this schema: ${JSON.stringify(
             schema,
-          )} and use the values as hints.`,
+          )}.`,
         },
       ],
     },
@@ -54,7 +48,7 @@ axios
     },
   )
   .then(response => {
-    fs.writeFileSync(path.join(__dirname, '../data/mvp.json'), JSON.stringify(toJSON(response.data), null, 2))
-    console.timeEnd('Generated objects for 32 teams in')
+    fs.writeFileSync(path.join(__dirname, '../data/players.json'), JSON.stringify(toJSON(response.data), null, 2))
+    console.timeEnd(`Fetched batch of ${totalPlayers} players`)
   })
   .catch(console.error)

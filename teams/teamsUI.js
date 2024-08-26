@@ -7,7 +7,7 @@ const insert = (target = document.body, tag = 'div') => {
   return el
 }
 
-fetch('/data/mvp.json')
+fetch('/data/teams.json')
   .then(response => response.json())
   .then(data => {
     for (const t in data.teams) {
